@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_obtener_todas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener todas las categorias"/>
+
+    <Button
+        android:id="@+id/btn_obtener_una"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtener una Categoria"/>
+
+    <Button
+        android:id="@+id/btn_grabar_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grabar Categoria"/>
+
+    <Button
+        android:id="@+id/btn_eliminar_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Categoria"/>
+
+</LinearLayout>
