@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <Button
         android:id="@+id/btn_obtener_todas"
@@ -25,6 +25,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Grabar Categoria"/>
+
+    <Button
+        android:id="@+id/btn_actualizar_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Categoria"/>
 
     <Button
         android:id="@+id/btn_eliminar_categoria"
